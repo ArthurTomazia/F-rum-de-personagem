@@ -3,15 +3,15 @@
   --cor-fundo-2: #b9d8ee;
   --cor-forms: #bbbec3;
   --cor-texto: #1e3b69;
-  --cor-erro: #c60484;
-  --cor-sucesso: #11c684;
+  --cor-erro: #ff0000;
+  --cor-sucesso: #00ff4c;
 }
 
 * {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
+#bodyLogin {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -20,7 +20,7 @@ body {
   background-color: var(--cor-fundo);
 }
 
-main {
+#mainLogin {
   padding: 3%;
   gap: 1%;
   border-radius: 18%;
