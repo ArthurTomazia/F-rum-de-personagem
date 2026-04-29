@@ -3,15 +3,15 @@
   --cor-fundo-2: #b9d8ee;
   --cor-forms: #bbbec3;
   --cor-texto: #1e3b69;
-  --cor-erro: #c60484;
-  --cor-sucesso: #11c684;
+  --cor-erro: #ff0000;
+  --cor-sucesso: #00ff4c;
 }
 
 * {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-body {
+#bodyLogin {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -20,7 +20,7 @@ body {
   background-color: var(--cor-fundo);
 }
 
-main {
+#mainLogin {
   padding: 3%;
   gap: 1%;
   border-radius: 18%;
@@ -66,3 +66,104 @@ main {
   font-size: 12px;
   text-align: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar{
+    display: inline;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.img-nav{
+    height: 40px;
+    width: 40px;
+    margin: 10px;
+}
+
+.barra-lateral{
+    background-color: rgb(45, 45, 46);
+    height: 100%;
+    padding-right: 20px;
+}
+
+.barra-lateral-aux{
+    height: 350px;
+    width: 90px;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+button{
+    background-color: transparent;
+    color: white;         
+    padding: 10px 20px;
+    border: none;             
+    cursor: pointer;         
+    transition: 0.3s;   
+
+}
+
+.flex{
+    display: flex;
+}
+
+.card-img-top{
+    height: 270px;
+    
+}
+
+.cards{
+    display: none;
+}
+
+
+.padding{
+    padding: 10px;
+}
+
