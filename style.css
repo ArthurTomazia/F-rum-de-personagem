@@ -121,7 +121,7 @@
 .barra-lateral{
     background-color: rgb(45, 45, 46);
     height: 100%;
-    width: 300px;
+    padding-right: 10px;
 }
 
 .barra-lateral-aux{
