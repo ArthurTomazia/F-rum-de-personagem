@@ -15,11 +15,9 @@
     </header>
 
 
-    <main>   
+    <main>
 
 
-        
-        
         <div class="container d-flex justify-content-center align-items-center vh-100">
             <div class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">
                 <div class="container text-center">
@@ -28,22 +26,25 @@
                         <div class="col">
                             <div class="formLogin">
                                 <h1>Login</h1>
-                                <form action="formLogin" id="formLogin">
-                                    <div class="C-email MB-3">
-                                        <label class="Email" for="Email">Email: </label>
+                                <form id="formLogin">
+                                    <div class="C-email">
+                                        <label class="email" for="email">Email: </label>
                                         <input type="email" id="email" placeholder="Email" required>
                                     </div>
-                                    <div class="C-senha MB-3">
-                                        <label class="Senha" for="Senha">Senha: </label>
+                                    <div class="C-senha">
+                                        <label class="senha" for="senha">Senha: </label>
                                         <input type="password" id="senha" placeholder="Senha" required>
                                     </div>
                                     <div class="d-botao">
                                         <button class="btn btn-primary" class="botao" type="submit">Enviar</button>
                                     </div>
+                                    <div id="resultado"></div>
                                 </form>
                                 <div>
                                     <h2 id="mensagem"></h2>
-                                    <p>Não tem conta? cadastre-se</p>
+                                    <div class="toggle" id="toggle">
+                                        <p>Não tem conta? cadastre-se</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -54,36 +55,17 @@
 
 
 
-    <div class="container text-center">
-  <div class="row">
-    <div class="col">
-    </div>
-    <div class="col">
-      <div class="formulario">
-        <h1>Login</h1>
-       <form action="Formulario">
-       <div class="C-email">
-        <label class="email" for="email">Email:   </label>
-       <input type="email" id="email" placeholder="Email" required>
-       </div>
-       <div class="C-senha">
-        <label class="senha" for="senha">Senha: </label>
-       <input type="password" id="senha" placeholder="senha" required>
-       </div>
-       <div class="d-botao">
-        <button class="botao" type="submit">Enviar</button>
-       </div>
-       <div id="resultado"></div>
-       </form>
-       <div>
-        <h2 id="mensagem"></h2>
-       </div>
-    </div>
-    </div>
-    <div class="col">
-    </div>
-  </div>
-</div>
+
+
+        <div>
+            <h2 id="mensagem"></h2>
+        </div>
+        </div>
+        </div>
+        <div class="col">
+        </div>
+        </div>
+        </div>
 
 
     </main>
@@ -92,9 +74,9 @@
     <footer>
     </footer>
 
-    
 
-    <script src="/script/javascript.js"></script>
+
+    <script src="script/javascript.js"></script>
 </body>
 
 </html>
