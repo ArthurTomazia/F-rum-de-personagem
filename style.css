@@ -159,11 +159,94 @@ button{
 }
 
 .cards{
-    display: none;
+    
 }
 
 
 .padding{
     padding: 10px;
+}
+
+
+
+
+.blue{
+  height: 100px;
+  width: 100px;
+  background-color: #ff0000;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.body{
+  height: 100vh;
+}
+
+.menu-lateral{
+  width: 50px;
+  height: 100%;
+  background-color: rgb(45, 45, 46);
+  padding: 40px 0 40px 1%;
+  
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: .2s;
+}
+
+.menu-lateral:hover{
+  width: 300px;
+  transition: .1s;
+}
+
+.btn-expandir{
+  width: 100%;
+}
+
+
+
+.btn-expandir > i{
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+ul{
+  height: 100%;
+  list-style-type: none;
+}
+
+ul li.expander:hover{
+  width: 500px;
+}
+
+ul li.item-menu:hover{
+  background-color: #2d1a72;
+  padding-left: 10px;
+}
+
+ul li.item-menu a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 20px 0%;
+  display: flex;
+  line-height: 32px;
+}
+
+ul li.item-menu a .txt-link{
+  margin-left: 30px;
+}
+
+ul li.item-menu a .icon{
+  color: white;
+  font-size: 30px;
 }
 
