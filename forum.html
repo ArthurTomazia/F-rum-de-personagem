@@ -1,115 +1,134 @@
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forum Ash</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
 </head>
-
-<body>
+<body class="body">
+    
 
     <header>
-        <nav>
-            <div class="navbar">
-                <img class="img-nav" src="assets/images-removebg-preview.png" alt="">
-                <h1>Tronos</h1>
-            </div>
+        <nav class="nav-bar">
+        <img src="assets/images-removebg-preview.png" class="img-nav" alt="">
         </nav>
+
     </header>
 
-
     <main>
-        <div class="flex">
-
-
-            <div class="barra-lateral flex">
-                <div class="barra-lateral-aux" id="barra-lateral-aux">
-                    <br>
-                    <button onclick="inicio()">🛖 Início</button>
-                    <button onclick="explorar()">🧭 Explorar</button>
-                    <button onclick="salvar()">💾 Salvos</button>
-                    <button onclick="historico()">🕝 Histórico</button>
-                </div>
-
-                <div id="cards">
-                    
-                    <div class="card" style="width: 18rem;">
-                        <a href="https://victoryroad.fandom.com/wiki/Cynthia">
-                        <img src="assets/7d241f9204db0ef8dfce946359158ad5.jpg" class="card-img-top" alt="Cynthia">
-                        <div class="card-body">
-                        <h5 class="card-title">Cynthia</h5>
-                        <p class="card-text">Cynthia Wiki</p>
-                        </a>
-                    </div>
-                    </div>
-                   
-                    <div class="card" style="width: 18rem;">
-                        <a href="https://tkoc.fandom.com/pt-br/wiki/Dawn_(Game)">
-                        <img src="assets/1774939cf1ea40db8b77c9608f7131d6.jpg" class="card-img-top" alt="Dawn">
-                        <div class="card-body">
-                        <h5 class="card-title">Dawn</h5>
-                        <p class="card-text">Dawn Wiki</p>
-                        </a>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <a href="https://pedrofilms-inc.fandom.com/pt-br/wiki/N_(Pok%C3%A9mon)">
-                        <img src="assets/i1u4a1Av6XY5LbnTGDHZ6Z_KVA5SOGLYL6R7QTamIoXF6D9XbvWwuaYwk3s9mz_tZ7b_KovlSjpmdjlSwT9_eQ.webp"
-                            class="card-img-top" alt="N">
-                        <div class="card-body">
-                            <h5 class="card-title">N</h5>
-                            <p class="card-text">N Wiki</p>
-                            </a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </div>
-
-
-            
-            <div class="padding">
-            <h1>Ash Ketchum</h1>
-            <img src="assets/Ash_BW.webp" alt="">
-            <p>Ash Ketchum nasceu na cidade de Pallet, na região de Kanto, e é um garoto que luta para se tornar o maior mestre pokemon do mundo, partindo em jornada com esse objetivo em mente. Para catalogar os monstros, ele possui a PokéDex, um computador de bolso que contém todas as informações sobre os Pokémon da região onde foi programado, sendo atualizado a cada nova jornada. Uma das metas de Ash é também ser campeão de uma Liga Pokemon Regional de grande porte. Para tanto, desafia os ginásios pokemon de cada região que visita, para reunir o mínimo de oito insígnias necessárias para participar de uma competição da Liga. Tem uma personalidade irritável, impulsiva e ingênua, mas, ao mesmo tempo, também é energético, alegre e bondoso.
-
-Enquanto viaja pelas diversas cidades de uma região para cumprir seu objetivo, Ash tem a oportunidade de capturar novos Pokémon, treiná-los para ajudá-lo nas lutas de ginásio e ajudar a preencher a PokéDex com todos os Pokémon os quais já viu. Além disso, ele eventualmente enfrenta rivais e combate a Equipe Rocket, uma equipe especializada em roubar Pokémon poderosos ou raros.
-
-Quando está viajando, Ash pode carregar até 6 Pokémon consigo de cada vez, mas pode armazenar mais nos laboratórios do Professor Carvalho e da Professora Juniper, trocando-os pelos que carrega, de acordo com a necessidade. Balanceando sua equipe, Ash busca derrotar todo tipo de inimigo.</p>
+    <nav class="menu-lateral">
+            <div class="flex">
+            <div class="btn-expandir">
+            <i class="bi bi-compass"></i>
             </div>
             
+            <div class="cards">
+          
+                <div class="card" style="width: 18rem;">
+                    <a href="https://victoryroad.fandom.com/wiki/Cynthia">
+                    <img src="assets/7d241f9204db0ef8dfce946359158ad5.jpg" class="card-img-top" alt="Cynthia">
+                    <div class="card-body">
+                    <h5 class="card-title">Cynthia</h5>
+                    <p class="card-text">Cynthia Wiki</p>
+                    </a>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <a href="https://tkoc.fandom.com/pt-br/wiki/Dawn_(Game)">
+                    <img src="assets/1774939cf1ea40db8b77c9608f7131d6.jpg" class="card-img-top" alt="Dawn">
+                    <div class="card-body">
+                    <h5 class="card-title">Dawn</h5>
+                    <p class="card-text">Dawn Wiki</p>
+                    </a>
+                </div>
+               
+                <div class="card" style="width: 18rem;">
+                    <a href="https://pedrofilms-inc.fandom.com/pt-br/wiki/N_(Pok%C3%A9mon)">
+                    <img src="assets/i1u4a1Av6XY5LbnTGDHZ6Z_KVA5SOGLYL6R7QTamIoXF6D9XbvWwuaYwk3s9mz_tZ7b_KovlSjpmdjlSwT9_eQ.webp"class="card-img-top" alt="N">
+                    <div class="card-body">
+                    <h5 class="card-title">N</h5>
+                    <p class="card-text">N Wiki</p>
+                    </a>
+                </div>
+    
+                <div class="card" style="width: 18rem;">
+                    <a href="https://pokemon.fandom.com/wiki/Misty_(anime)">
+                    <img src="assets/image2.png" class="card-img-top" alt="Misty">
+                    <div class="card-body">
+                    <h5 class="card-title">Misty</h5>
+                    <p class="card-text">Misty Wiki</p>
+                    </a>
+                </div>
+
+                <div class="card" style="width: 18rem;">
+                    <a href="https://pokemon.fandom.com/wiki/Brock_(anime)">
+                    <img src="assets/image.png" class="card-img-top" alt="Brock">
+                    <div class="card-body">
+                    <h5 class="card-title">Brock</h5>
+                    <p class="card-text">Brock Wiki</p>
+                    </a>
+                </div>
+
+            </div>
             
-
-
-            
-
-
-
-
-
-
-
-
+            </div>
+    </nav>
+    <div class="branco">
+       
+    
+        <div>
+            <br>
+            <br>
+            <br>
+            <div><h1>Ash Ketchum</h1></div>
+            <div class="flex">
+                <div><img src="assets/Ash.webp" class="img-ash" alt=""></div>
+                <div><h3>Ash Ketchum nasceu na cidade de Pallet, na região de Kanto, e é um garoto que luta para se tornar o maior mestre pokemon do mundo, partindo em jornada com esse objetivo em mente. Para catalogar os monstros, ele possui a PokéDex, um computador de bolso que contém todas as informações sobre os Pokémon da região onde foi programado, sendo atualizado a cada nova jornada. Uma das metas de Ash é também ser campeão de uma Liga Pokemon Regional de grande porte. Para tanto, desafia os ginásios pokemon de cada região que visita, para reunir o mínimo de oito insígnias necessárias para participar de uma competição da Liga. Tem uma personalidade irritável, impulsiva e ingênua, mas, ao mesmo tempo, também é energético, alegre e bondoso.</h3></div>
+            </div>
+            <div>
+                <h3>Enquanto viaja pelas diversas cidades de uma região para cumprir seu objetivo, Ash tem a oportunidade de capturar novos Pokémon, treiná-los para ajudá-lo nas lutas de ginásio e ajudar a preencher a PokéDex com todos os Pokémon os quais já viu. Além disso, ele eventualmente enfrenta rivais e combate a Equipe Rocket, uma equipe especializada em roubar Pokémon poderosos ou raros</h3>
+            </div>
+            <div>
+                <h3>Quando está viajando, Ash pode carregar até 6 Pokémon consigo de cada vez, mas pode armazenar mais nos laboratórios do Professor Carvalho e da Professora Juniper, trocando-os pelos que carrega, de acordo com a necessidade. Balanceando sua equipe, Ash busca derrotar todo tipo de inimigo.</h3>
+            </div>
 
         </div>
 
-    </main>
+
 
     
+   
+
+
+
+
+
+
+
+    </div>
+    </main>
 
 
     <footer>
 
     </footer>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
-        <script src="script/javascript.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
+<script src="script/javascript.js"></script>
 </html>
