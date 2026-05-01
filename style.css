@@ -177,8 +177,7 @@
   margin-right: 10px;
   height: 100vh;
   width: 2000px;
-  overflow-y: scroll;
-  font-style: none;
+  overflow: scroll;
 }
 
 .menu-lateral{
@@ -196,7 +195,7 @@
 }
 
 .menu-lateral:hover{
-  width: 360px;
+  width: 400px;
   transition: .2s;
   z-index: 10;
 }
@@ -247,5 +246,9 @@ p{
   padding: 5px;
 }
 
+.submit{
+  text-decoration: none;
+  color: whitesmoke;
+}
 
 
