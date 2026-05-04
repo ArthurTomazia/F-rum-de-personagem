@@ -36,6 +36,7 @@ document.getElementById("formLogin").onsubmit = (e) => {
         let salva = localStorage.getItem(email);
         if (salva === senha) {
             mensagem.innerHTML = "<div class='sucesso'><p>Login com sucesso!</p></div>";
+            window.location.href = "forum.html";
         } else {
             mensagem.innerHTML = "<div class='erro'><p>Dados Incorretos!</p></div>";
         }
